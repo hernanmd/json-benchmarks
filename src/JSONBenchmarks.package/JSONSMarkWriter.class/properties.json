@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "JSONSMarkReader",
+	"instvars" : [
+		"fileReference"
+	],
+	"name" : "JSONSMarkWriter",
 	"type" : "normal"
 }
