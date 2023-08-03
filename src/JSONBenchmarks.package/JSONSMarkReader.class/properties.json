@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/4/2023 00:54",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "JSONBenchmarks",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "JSONBenchesData",
+	"instvars" : [
+		"jsonStream"
+	],
+	"name" : "JSONSMarkReader",
 	"type" : "normal"
 }

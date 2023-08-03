@@ -4,7 +4,9 @@ baseline: spec
 	spec
 		for: #(common)
 		do: [ 
-			spec 
+			spec
+				baseline: 'NeoJSON'  with: [ spec repository: 'github://svenvc/NeoJSON/repository' ];
+
 				package: 'JSONBenchmarks'      with: [ spec requires: #(SMark) ] ;
 				package: 'JSONBenchmarks-Tests'	with: [ spec requires: #(JSONBenchmarks) ].
 			spec 

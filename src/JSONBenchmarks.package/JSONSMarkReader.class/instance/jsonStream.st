@@ -1,0 +1,4 @@
+accessing
+jsonStream
+
+	^ jsonStream
