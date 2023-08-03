@@ -1,9 +1,9 @@
 benchmarking
-benchReadJSON
+benchReadJSONCanada
 
 	| bench problemSize |
 
-	bench := JSONSMarkReader new.
+	bench := JSONSMarkReader canada.
 	problemSize := self problemSize 
 		ifNotNil: [ : ps | ps ]
 		ifNil:    [ self class defaultProblemSize ].
