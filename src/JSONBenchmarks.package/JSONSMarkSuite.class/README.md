@@ -1,6 +1,9 @@
 Main JSON Benchmark class, using SMark package for benchmarking.
-See methods starting with #bench.
 
+To run a specific benchmark see methods starting with #bench.
+
+
+To run all benchmarks
 ```language=Pharo
-JSONSMarkSuite new benchReadJSON.
+JSONSMarkSuite runAll.
 ``` 
