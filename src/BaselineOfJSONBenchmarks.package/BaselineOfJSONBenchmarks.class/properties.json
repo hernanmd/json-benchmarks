@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BaselineOfJSONBenchesData",
+	"name" : "BaselineOfJSONBenchmarks",
 	"type" : "normal"
 }
