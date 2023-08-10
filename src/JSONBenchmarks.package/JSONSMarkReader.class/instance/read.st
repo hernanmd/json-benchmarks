@@ -3,4 +3,4 @@ read
 
 	^ ZnBufferedReadStream 
 		on: self jsonStream 
-		do: [ :stream | (NeoJSONReader on: stream) next ]
+		do: [ :stream | ((Smalltalk at: self readerClass) on: stream) next ]

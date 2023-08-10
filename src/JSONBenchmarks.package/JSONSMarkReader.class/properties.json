@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "JSONSMarkAbstract",
-	"category" : "JSONBenchmarks",
+	"category" : "JSONBenchmarks-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"readerClass"
+	],
 	"name" : "JSONSMarkReader",
 	"type" : "normal"
 }

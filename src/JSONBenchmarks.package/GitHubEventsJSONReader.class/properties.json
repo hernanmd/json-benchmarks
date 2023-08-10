@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "JSONSMarkAbstract",
-	"category" : "JSONBenchmarks-Core",
+	"super" : "Object",
+	"category" : "JSONBenchmarks-Support",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"fileReference"
+		"stream",
+		"json"
 	],
-	"name" : "JSONSMarkWriter",
+	"name" : "GitHubEventsJSONReader",
 	"type" : "normal"
 }

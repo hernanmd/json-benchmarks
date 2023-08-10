@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/4/2023 13:37",
 	"super" : "SMarkSuite",
-	"category" : "JSONBenchmarks",
+	"category" : "JSONBenchmarks-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"dataset",
+		"benchmarkOperation"
+	],
 	"name" : "JSONSMarkSuite",
 	"type" : "normal"
 }

@@ -1,13 +1,17 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "JSONBenchmarks-Core",
+	"category" : "JSONBenchmarks-Support",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"jsonStream"
+		"id",
+		"actor",
+		"repo",
+		"public",
+		"createdAt"
 	],
-	"name" : "JSONSMarkAbstract",
+	"name" : "GitHubEventObject",
 	"type" : "normal"
 }

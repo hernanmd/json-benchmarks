@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/4/2023 00:54",
 	"super" : "Object",
-	"category" : "JSONBenchmarks",
+	"category" : "JSONBenchmarks-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

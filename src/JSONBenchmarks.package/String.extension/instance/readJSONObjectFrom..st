@@ -1,0 +1,4 @@
+*JSONBenchmarks
+readJSONObjectFrom: aNeoJSONReader 
+
+	^ self
