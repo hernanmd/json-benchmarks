@@ -1,4 +1,0 @@
-accessing
-openIssues
-
-	^ openIssues

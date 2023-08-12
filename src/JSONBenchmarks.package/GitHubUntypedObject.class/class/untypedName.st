@@ -1,4 +1,0 @@
-accessing
-untypedName
-
-	^ String empty

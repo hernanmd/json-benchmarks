@@ -1,4 +1,0 @@
-accessing
-masterBranch
-
-	^ masterBranch

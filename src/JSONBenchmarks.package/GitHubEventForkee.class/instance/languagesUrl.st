@@ -1,4 +1,0 @@
-accessing
-languagesUrl
-
-	^ languagesUrl

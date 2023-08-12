@@ -1,4 +1,0 @@
-accessing
-distinctSize
-
-	^ distinctSize

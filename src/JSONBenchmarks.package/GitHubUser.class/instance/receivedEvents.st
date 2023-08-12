@@ -1,4 +1,0 @@
-accessing
-receivedEvents
-
-	^ receivedEvents

@@ -1,4 +1,0 @@
-accessing
-milestonesUrl
-
-	^ milestonesUrl

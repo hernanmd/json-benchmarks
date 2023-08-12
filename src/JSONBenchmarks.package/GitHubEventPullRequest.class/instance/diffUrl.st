@@ -1,4 +1,0 @@
-accessing
-diffUrl
-
-	^ diffUrl
