@@ -1,4 +1,4 @@
-reading
+private
 readArray: anArray
 
 	^ anArray collect: [ :each |

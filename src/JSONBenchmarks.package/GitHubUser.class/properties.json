@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubEventObject",
+	"category" : "JSONBenchmarks-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"starredUrl",
+		"login",
+		"reposUrl",
+		"url",
+		"organizationsUrl",
+		"gistsUrl",
+		"avatarUrl",
+		"gravatarId",
+		"followersUrl",
+		"subscriptionsUrl",
+		"eventsUrl",
+		"followingUrl",
+		"receivedEvents"
+	],
+	"name" : "GitHubUser",
+	"type" : "normal"
+}

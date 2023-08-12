@@ -1,0 +1,4 @@
+accessing
+untypedName
+
+	^ String empty

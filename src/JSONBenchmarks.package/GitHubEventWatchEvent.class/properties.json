@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GitHubEventObject",
-	"category" : "JSONBenchmarks",
+	"category" : "JSONBenchmarks-GitHub",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubObject",
+	"category" : "JSONBenchmarks-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GitHubUntypedObject",
+	"type" : "normal"
+}

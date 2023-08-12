@@ -4,8 +4,9 @@ readDictionary: aDictionary
 	object := (self resolveType: (aDictionary at: #type)) new.
 	aDictionary keysAndValuesDo: [ :selector :rawValue |
 		(selector = #type) ifFalse: [ 
-			(object setters includes: selector)
-				ifTrue: [ object perform: selector with: rawValue ]
+			(selector = #properties)
+				ifTrue: [ 
+					object properties: rawValue ]
 				ifFalse: [   
 					object
 						perform: selector asSymbol asMutator

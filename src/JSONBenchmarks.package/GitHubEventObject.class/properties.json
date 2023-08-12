@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "JSONBenchmarks-Support",
+	"commentStamp" : "HernanMoralesDurand 8/12/2023 10:39",
+	"super" : "GitHubObject",
+	"category" : "JSONBenchmarks-GitHub",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
 		"actor",
 		"repo",
 		"public",
-		"createdAt"
+		"createdAt",
+		"payload",
+		"org"
 	],
 	"name" : "GitHubEventObject",
 	"type" : "normal"

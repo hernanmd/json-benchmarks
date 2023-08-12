@@ -1,0 +1,30 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubUntypedObject",
+	"category" : "JSONBenchmarks-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"closedAt",
+		"labelsUrl",
+		"user",
+		"pullRequest",
+		"assignee",
+		"updatedAt",
+		"labels",
+		"number",
+		"title",
+		"createdAt",
+		"commentsUrl",
+		"body",
+		"state",
+		"url",
+		"milestone",
+		"htmlUrl",
+		"eventsUrl",
+		"comments"
+	],
+	"name" : "GitHubEventIssue",
+	"type" : "normal"
+}

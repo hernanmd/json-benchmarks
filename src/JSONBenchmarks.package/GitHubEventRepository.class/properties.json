@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubUntypedObject",
+	"category" : "JSONBenchmarks-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"url"
+	],
+	"name" : "GitHubEventRepository",
+	"type" : "normal"
+}

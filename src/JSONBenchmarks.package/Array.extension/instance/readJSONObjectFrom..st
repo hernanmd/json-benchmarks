@@ -1,4 +1,4 @@
 *JSONBenchmarks
-readJSONObjectFrom: aNeoJSONReader 
+readJSONObjectFrom: aNeoJSONReader
 
-	^ aNeoJSONReader readArray: self.
+	^ aNeoJSONReader readArray: self

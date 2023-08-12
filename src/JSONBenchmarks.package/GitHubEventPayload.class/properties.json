@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubUntypedObject",
+	"category" : "JSONBenchmarks-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"action",
+		"commits",
+		"before",
+		"size",
+		"distinctSize",
+		"ref",
+		"head",
+		"pushId",
+		"refType",
+		"description",
+		"masterBranch",
+		"forkee",
+		"issue",
+		"comment",
+		"pages"
+	],
+	"name" : "GitHubEventPayload",
+	"type" : "normal"
+}
