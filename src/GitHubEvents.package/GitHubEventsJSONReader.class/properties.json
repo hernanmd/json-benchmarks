@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/12/2023 10:40",
+	"super" : "Object",
+	"category" : "GitHubEvents-Reader",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"json"
+	],
+	"name" : "GitHubEventsJSONReader",
+	"type" : "normal"
+}

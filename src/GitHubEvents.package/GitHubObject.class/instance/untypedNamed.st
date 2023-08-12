@@ -1,0 +1,5 @@
+accessing
+untypedNamed
+
+	"DELETE"
+	^ self

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubUntypedObject",
+	"category" : "GitHubEvents-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"url"
+	],
+	"name" : "GitHubEventRepository",
+	"type" : "normal"
+}

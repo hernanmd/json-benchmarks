@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubEventObject",
+	"category" : "GitHubEvents-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GitHubEventGollumEvent",
+	"type" : "normal"
+}

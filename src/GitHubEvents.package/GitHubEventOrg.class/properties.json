@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubUntypedObject",
+	"category" : "GitHubEvents-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gravatarId",
+		"login",
+		"url",
+		"avatarUrl"
+	],
+	"name" : "GitHubEventOrg",
+	"type" : "normal"
+}

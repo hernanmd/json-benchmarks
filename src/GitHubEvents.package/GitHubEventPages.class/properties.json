@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "GitHubUntypedObject",
+	"category" : "GitHubEvents-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sha",
+		"pageName",
+		"action",
+		"summary",
+		"title",
+		"htmlUrl"
+	],
+	"name" : "GitHubEventPages",
+	"type" : "normal"
+}
