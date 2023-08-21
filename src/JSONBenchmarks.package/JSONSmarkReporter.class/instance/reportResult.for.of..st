@@ -1,23 +1,20 @@
 reporting
 reportResult: aResultsArray for: aCriterion of: benchmark
-	| convidenceVariance significantDigits |
+	| benchmarkGlobalName |
 
-	self halt.
-	stream << benchmark <<  ' ' <<  aCriterion <<  ': iterations='.
-	aResultsArray size printOn: stream .
-	stream << ' runtime: '.
-	
+	benchmarkGlobalName := benchmark copyUpTo: $(.
+	self outputStream 
+		<< benchmarkGlobalName; << $,;
+		<< 'OK'; << $,.
+	"Report duration"
 	aResultsArray size < 2 ifTrue: [
-		aResultsArray average printOn: stream.
-		stream << 'ms'.
-		^ self.
-	].
-	
-	convidenceVariance := self confidenceVariance: aResultsArray.  
-	
-	"only print significant "
-	significantDigits := self significantDigits: convidenceVariance.
-
-	aResultsArray average printOn: stream showingDecimalPlaces: significantDigits.
-	stream << 'ms +/-'.
-	convidenceVariance printOn: stream showingDecimalPlaces: significantDigits.
+		aResultsArray average printOn: self outputStream .
+		self outputStream  << 'ms'; << $, ].
+	"Report iterations count"	
+	aResultsArray size printOn: self outputStream .
+	self outputStream  << $,.
+	"Report image name"
+	Smalltalk image version printOn: self outputStream .
+	self outputStream  << $,.
+	"Report VM name"
+	Smalltalk vm interpreterClass substrings printOn: self outputStream .
