@@ -1,5 +1,0 @@
-accessing
-untypedNamed
-
-	"DELETE"
-	^ self

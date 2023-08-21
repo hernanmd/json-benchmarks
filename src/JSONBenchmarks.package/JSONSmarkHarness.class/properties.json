@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ReBenchHarness",
+	"category" : "JSONBenchmarks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSONSmarkHarness",
+	"type" : "normal"
+}

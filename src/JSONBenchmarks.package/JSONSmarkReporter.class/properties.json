@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ReBenchReporter",
+	"category" : "JSONBenchmarks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OutputFileReference"
+	],
+	"instvars" : [ ],
+	"name" : "JSONSmarkReporter",
+	"type" : "normal"
+}

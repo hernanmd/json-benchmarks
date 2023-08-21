@@ -1,5 +1,6 @@
 benchmarking
 benchJSON
+	"Read JSON datasets defined in the receiver"
 
 	self problemSize timesRepeat: [ 
 		(JSONSMarkReader 
