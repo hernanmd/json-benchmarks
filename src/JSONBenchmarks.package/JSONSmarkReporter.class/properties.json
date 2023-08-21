@@ -4,9 +4,7 @@
 	"category" : "JSONBenchmarks-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"OutputStream"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "JSONSmarkReporter",
 	"type" : "normal"

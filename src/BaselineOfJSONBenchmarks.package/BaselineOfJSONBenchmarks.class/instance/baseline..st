@@ -14,6 +14,6 @@ baseline: spec
 				package: 'GitHubEvents'        with: [ spec requires: #(JSONBenchmarks NeoJSON) ].
 
 			spec 
-				group: 'Core' 						with: #('JSONBenchmarks');
+				group: 'Core' 						with: #('JSONBenchmarks' 'GitHubEvents');
 				group: 'Tests' 						with: #('JSONBenchmarks' 'JSONBenchmarks-Tests');
 				group: 'default' 					with: #('Core' 'Tests') ]

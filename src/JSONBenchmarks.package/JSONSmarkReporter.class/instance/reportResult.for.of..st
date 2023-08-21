@@ -3,18 +3,18 @@ reportResult: aResultsArray for: aCriterion of: benchmark
 	| benchmarkGlobalName |
 
 	benchmarkGlobalName := benchmark copyUpTo: $(.
-	self outputStream 
+	stream
 		<< benchmarkGlobalName; << $,;
 		<< 'OK'; << $,.
 	"Report duration"
 	aResultsArray size < 2 ifTrue: [
-		aResultsArray average printOn: self outputStream .
-		self outputStream  << 'ms'; << $, ].
+		aResultsArray average printOn: stream.
+		stream << 'ms'; << $, ].
 	"Report iterations count"	
-	aResultsArray size printOn: self outputStream .
-	self outputStream  << $,.
+	aResultsArray size printOn: stream.
+	stream << $,.
 	"Report image name"
-	Smalltalk image version printOn: self outputStream .
-	self outputStream  << $,.
+	Smalltalk image version printOn: stream.
+	stream << $,.
 	"Report VM name"
-	Smalltalk vm interpreterClass substrings printOn: self outputStream .
+	Smalltalk vm interpreterClass substrings printOn: stream.
