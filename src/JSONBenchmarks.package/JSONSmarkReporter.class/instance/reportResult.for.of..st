@@ -1,11 +1,16 @@
 reporting
 reportResult: aResultsArray for: aCriterion of: benchmark
-	| benchmarkGlobalName |
+	| benchmarkGlobalName benchmarkDataset |
 
 	benchmarkGlobalName := benchmark copyUpTo: $(.
+	benchmarkDataset := (benchmark findTokens: $#) last allButLast trimBoth.
 	stream
-		<< benchmarkGlobalName; << $,;
-		<< 'OK'; << $,.
+		<< benchmarkGlobalName;
+		space;
+		<< benchmarkDataset;
+		<< $,;
+		<< 'OK'; 
+		<< $,.
 	"Report duration"
 	aResultsArray size < 2 ifTrue: [
 		aResultsArray average printOn: stream.
@@ -17,4 +22,5 @@ reportResult: aResultsArray for: aCriterion of: benchmark
 	Smalltalk image version printOn: stream.
 	stream << $,.
 	"Report VM name"
-	Smalltalk vm interpreterClass substrings printOn: stream.
+	Smalltalk vm interpreterClass substrings first printOn: stream.
+	stream flush.
