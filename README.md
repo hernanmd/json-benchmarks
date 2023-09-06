@@ -40,7 +40,13 @@ If you want to add the JSONBenchmarks to your Metacello Baselines or Configurati
 # Usage
 
 ```smalltalk
-JSONSMarkSuite runAll.
+JSONSmarkHarness run: { 
+    'JSONSmarkHarness'. 
+    'JSONSMarkSuite.benchJSON' . 
+    1 . "The number of iterations"
+    1 . "The number of processes"
+    5   "The problem size"
+    }.
 ```
 
 # Contribute
